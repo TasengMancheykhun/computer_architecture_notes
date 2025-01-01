@@ -23,8 +23,12 @@
       * Simple and effective but not fast
       * All depends on a single wire 
     * Ring Topology
-      * 
+      * Multiple computers, one connected to the next to complete a ring
+      * A transmitting computer needs to have a token before transmitting
+      * Inexpensive
+      * Tough to add or remove nodes, One node crashing can disconnect the whole network  
     * Star Topology
+      * 
     * Mesh Topology
     * Tree Topology
    
@@ -36,7 +40,7 @@
     * Ethernet
     * Token Ring
     * Token Bus
-  
+     
     
 
 
