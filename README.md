@@ -28,16 +28,24 @@
       * Inexpensive
       * Tough to add or remove nodes, One node crashing can disconnect the whole network  
     * Star Topology
-      * 
-    * Mesh Topology
+      * Each computer is connected to a central hub
+      * All commpunication goes through the hub only
+      * Simple but too much dependence on the hub
+      * But the hub can be upgraded easily. Easy to troubleshoot, Cost is high 
+    * Mesh Topology 
+      *  
     * Tree Topology
-   
+      *
   * Network Interface Card (NIC)
     * Also called LAN card
     * Interface between a computer and a network
 
   * Wired LAN technologies
     * Ethernet
+      * Ethernet Generations:
+        * Classic Ethernet (Bus topology)
+        * Gigabit Ethernet/Switched Ethernet (Star topology)  
+      
     * Token Ring
     * Token Bus
      
