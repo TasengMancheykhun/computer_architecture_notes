@@ -37,7 +37,10 @@
       * Very robust, Easy to diagnose errors, privacy and security are better
       * Costly, Too much of wiring   
     * Tree Topology
-      *
+      * Nodes are connected hierarchically, ultimately connecting to the top node, called as root node
+      * Has atleat 3 levels of hierarchy
+      * Easy to expand and manage, debug
+      * Expensive, lots of cabling        
   * Network Interface Card (NIC)
     * Also called LAN card
     * Interface between a computer and a network
