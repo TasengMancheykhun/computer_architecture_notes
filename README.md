@@ -1,1 +1,3 @@
-# computer_architecture_notes
+* Networking
+  * Source - Transmitter - Transmission System - Receiver - Destination
+  * Eg 
