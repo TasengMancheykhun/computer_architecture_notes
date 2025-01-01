@@ -44,6 +44,7 @@
   * Network Interface Card (NIC)
     * Also called LAN card
     * Interface between a computer and a network
+    * Has hardcoded address: MAC address, Physical address, Hardware address
 
   * Wired LAN technologies
     * Ethernet
