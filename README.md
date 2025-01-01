@@ -33,7 +33,9 @@
       * Simple but too much dependence on the hub
       * But the hub can be upgraded easily. Easy to troubleshoot, Cost is high 
     * Mesh Topology 
-      *  
+      * All nodes are connected to each other
+      * Very robust, Easy to diagnose errors, privacy and security are better
+      * Costly, Too much of wiring   
     * Tree Topology
       *
   * Network Interface Card (NIC)
