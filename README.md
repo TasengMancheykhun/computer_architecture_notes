@@ -9,4 +9,19 @@
       * Bandwidth Limitation
       * Latency
       * Packet Loss
-      * 
+
+  * Network Types
+      * PAN
+      * LAN
+      * MAN
+      * WAN
+      * Internet
+
+  * Network Topology 
+      * Bus Topology
+      * Ring Topology
+      * Star Topology
+      * Mesh Topology
+      * Tree Topology
+   
+  * 
