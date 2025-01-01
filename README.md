@@ -19,7 +19,11 @@
 
   * Network Topology: Represents a network arrangement consisting of several nodes 
     * Bus Topology
+      * All nodes connected to a single wire (called a bus)
+      * Simple and effective but not fast
+      * All depends on a single wire 
     * Ring Topology
+      * 
     * Star Topology
     * Mesh Topology
     * Tree Topology
@@ -33,7 +37,7 @@
     * Token Ring
     * Token Bus
   
-  
+    
 
 
 
