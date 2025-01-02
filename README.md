@@ -83,6 +83,7 @@
       * Sometimes also called ISO/OSI 
       * Contains 7 layers
         * Application Layer
+          * HTTP(access web pages), SMTP (Email), FTP (file transfer), DNS (Querying domain names)
         * Presentation Layer
         * Session Layer
         * Transport Layer
