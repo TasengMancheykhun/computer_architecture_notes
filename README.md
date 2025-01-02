@@ -66,7 +66,9 @@
         * Twisted-pair cable (uses electric current)
           * UTP (Unshielded twisted-pair)
           * STP (Shielded twisted-pair)
-        * Fiber optics (uses light)  
+        * Fiber optics (uses light) 
+          * Made of glass or plastic and transmits signals in the form of light
+          * Modern ethernet is fibre optic based 
       * Unguided media: (Wireless)
         * Infrared
         * RF
