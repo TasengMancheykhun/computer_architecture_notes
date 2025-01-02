@@ -101,7 +101,7 @@
 
     * Port Numbers  
       * Port number is a 16-bit value, So it can store 2^16=65536 digits i.e 0 to 65535
-      Three types:
+      * Three types:
         * Well-known ports: 0-1023 - used in server
         * Temporary/Ephemeral: 1024-49151 - used in client
         * Dynamic, Usage-based: 49152-65535
