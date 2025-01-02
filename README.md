@@ -75,9 +75,13 @@
         * Two types: 
           * Infrared
           * RF
-    
-        
 
+  * Protocol 
+    * Set of official/implicit rules used for communication between two devices        
+    
+    * OSI - Open Systems Interconnection
+      * Contains 7 layers
+      * Sometimes also called ISO/OSI 
 
 
 
