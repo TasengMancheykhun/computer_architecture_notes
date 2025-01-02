@@ -86,14 +86,24 @@
           * HTTP(access web pages), SMTP (Email), FTP (file transfer), DNS (Querying domain names)
           * Encapsulation begins here
         * Presentation Layer
-          * Translation:   
+          * Translation: Encodes to common format to take care of differences  
           * Encryption: To achieve confidentiality or privacy
           * Compression: Reduces the number of bits needed to be transmitted
         * Session Layer
+          * Manages the session between applications
+          * Eg: Between browser of the source computer and server of the destination computer
         * Transport Layer
+          * Identifies the application on the destination computer using port numbers
+          * Eg: One server, multiple applications: FTP, Telnet session, Webpage 
         * Network Layer
         * Data Link Layer
         * Physical Layer
 
+    * Port Numbers  
+      * Port number is a 16-bit value, So it can store 2^16=65536 digits i.e 0 to 65535
+      Three types:
+        * Well-known ports: 0-1023 - used in server
+        * Temporary/Ephemeral: 1024-49151 - used in client
+        * Dynamic, Usage-based: 49152-65535
 
    
