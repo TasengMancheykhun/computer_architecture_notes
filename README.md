@@ -96,6 +96,10 @@
           * Identifies the application on the destination computer using port numbers
           * Eg: One server, multiple applications: FTP, Telnet session, Webpage 
         * Network Layer
+          * Sender and receiver in the same network use MAC addresses
+          * Sender and receiver in different networks cannot use MAC addresses. So they need to use IP address
+          * MAC address: S---[switch]---R
+          * IP address: S---[switch]---[Router]---[Router]---[switch]---R 
         * Data Link Layer
         * Physical Layer
 
@@ -105,5 +109,5 @@
         * Well-known ports: 0-1023 - used in server
         * Temporary/Ephemeral: 1024-49151 - used in client
         * Dynamic, Usage-based: 49152-65535
-
+     
    
