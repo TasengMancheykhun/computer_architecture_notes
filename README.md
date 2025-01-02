@@ -60,6 +60,9 @@
     * Media:
       * Guided media: (Wired)
         * Co-axial cable (uses electric current)
+          * coax carries signals of higher frequency ranges than those in twisted-pair cable
+          * coax has a single copper wire, instead of two wires
+          * Eg. Telephone, cable TV, LAN  
         * Twisted-pair cable (uses electric current)
           * UTP (Unshielded twisted-pair)
           * STP (Shielded twisted-pair)
@@ -67,8 +70,8 @@
       * Unguided media: (Wireless)
         * Infrared
         * RF
-
-
+    
+        
 
 
 
