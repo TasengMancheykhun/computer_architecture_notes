@@ -70,8 +70,11 @@
           * Made of glass or plastic and transmits signals in the form of light
           * Modern ethernet is fibre optic based 
       * Unguided media: (Wireless)
-        * Infrared
-        * RF
+        * Uses electromagnetic waves. Signals are broadcasted through free space
+        * Electromagnetic spectrum region ranging from 3kHz to 900 THz
+        * Two types: 
+          * Infrared
+          * RF
     
         
 
