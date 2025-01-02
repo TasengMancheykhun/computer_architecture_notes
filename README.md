@@ -55,9 +55,18 @@
     * Token Ring
     * Token Bus
      
-    
-
-
+  * Transmission media
+      - Carries information from a source to a destination
+    * Media:
+      * Guided media: (Wired)
+        * Co-axial cable (uses electric current)
+        * Twisted-pair cable (uses electric current)
+          * UTP
+          * STP
+        * Fiber optics (uses light)  
+      * Unguided media: (Wireless)
+        * Infrared
+        * RF
 
 
 
