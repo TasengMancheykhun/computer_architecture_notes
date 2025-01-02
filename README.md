@@ -61,8 +61,8 @@
       * Guided media: (Wired)
         * Co-axial cable (uses electric current)
         * Twisted-pair cable (uses electric current)
-          * UTP
-          * STP
+          * UTP (Unshielded twisted-pair)
+          * STP (Shielded twisted-pair)
         * Fiber optics (uses light)  
       * Unguided media: (Wireless)
         * Infrared
