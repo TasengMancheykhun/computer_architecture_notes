@@ -80,9 +80,15 @@
     * Set of official/implicit rules used for communication between two devices        
     
     * OSI - Open Systems Interconnection
-      * Contains 7 layers
       * Sometimes also called ISO/OSI 
-
+      * Contains 7 layers
+        * Application Layer
+        * Presentation Layer
+        * Session Layer
+        * Transport Layer
+        * Network Layer
+        * Data Link Layer
+        * Physical Layer
 
 
    
