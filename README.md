@@ -84,7 +84,11 @@
       * Contains 7 layers
         * Application Layer
           * HTTP(access web pages), SMTP (Email), FTP (file transfer), DNS (Querying domain names)
+          * Encapsulation begins here
         * Presentation Layer
+          * Translation:   
+          * Encryption: To achieve confidentiality or privacy
+          * Compression: Reduces the number of bits needed to be transmitted
         * Session Layer
         * Transport Layer
         * Network Layer
