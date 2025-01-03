@@ -141,7 +141,10 @@
             * No connections, no acknowledgements
             * Useful for audio, video or wherever we need speed but not guarantee
         * Internet layer *(layer 2)*
-          * IP, ICMP, ARP, DHCP
+          * Eg: IP, ICMP, ARP, DHCP
+          * Provides logical addressing (IP addresses)
+          * Performs routing
+          * Provides an IP datagram format
         * Network Access *(layer 1)*
           * Ethernet, PPP, ADSL
     
