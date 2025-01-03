@@ -38,7 +38,11 @@
 
     * Interconnection between various parts of a computer
     * Defining the instruction set. Must be simple 
-    *  
+    
+  * CISC Architecture: Complex Instruction Set Computer
+    * Eg: Intel
+  * RISC Architecture: Reduced Instruction Set Computer
+    * Eg: ARM
 
 
 
