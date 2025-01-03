@@ -100,7 +100,14 @@
           * Sender and receiver in different networks cannot use MAC addresses. So they need to use IP address
           * MAC address: S---[switch]---R
           * IP address: S---[switch]---[Router]---[Router]---[switch]---R 
+          * Each computer has two types of addresses:
+            * MAC address/Physical address/Hardware address
+              * Fixed address, Hardcoded on the Network Interface Card(NIC)
+              * Differenet for different network type (Eg. Ethernet card, WiFi card) 
+              *Useful within or inside a network
+
         * Data Link Layer
+          * 
         * Physical Layer
 
     * Port Numbers  
