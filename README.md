@@ -115,9 +115,10 @@
               * Useful outside a network (e.g. to reach another computer on the internet, anywhere in the world)
 
         * Data Link Layer *(layer 2)*
-          * 
+          * LAN/WAN operates at this layer (eg. Ethernet or Wifi)
         * Physical Layer *(layer 1)*
-
+          * carries the data (0s and 1s) in the form of signals
+          * Signals can be electric, optical, or wireless
     * Port Numbers  
       * Port number is a 16-bit value, So it can store 2^16=65536 digits i.e 0 to 65535
       * Three types:
@@ -125,4 +126,27 @@
         * Temporary/Ephemeral: 1024-49151 - used in client
         * Dynamic, Usage-based: 49152-65535
      
-   
+    * TCP/IP protocol suite
+      * Came before OSI 
+      * Has 4 layers, not 7
+        * Application layer *(layer 4)*
+          * Telnet, HTTP, SMTP, FTP, DNS, SSH 
+        * Transport layer *(layer 3)*
+          * TCP (Transmission Control Protocol)
+            * Reliable protocol
+            * Gauranteed delivery
+            * Uses connections, acknowledgements
+            * Used for text-based data
+          * UDP (User Datagram Protocol)
+            * Unreliable protocol
+            * No guarantee of delivery
+            * No connections, no acknowledgements
+            * Useful for audio, video or wherever we need speed but not guarantee
+        * Internet layer *(layer 2)*
+          * Eg: IP, ICMP, ARP, DHCP
+          * Provides logical addressing (IP addresses)
+          * Performs routing
+          * Provides an IP datagram format
+        * Network Access *(layer 1)*
+          * Ethernet, PPP, ADSL
+    
