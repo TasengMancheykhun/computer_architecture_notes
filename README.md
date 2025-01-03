@@ -113,9 +113,10 @@
               * Useful outside a network (e.g. to reach another computer on the internet, anywhere in the world)
 
         * Data Link Layer *(layer 2)*
-          * 
+          * LAN/WAN operates at this layer (eg. Ethernet or Wifi)
         * Physical Layer *(layer 1)*
-
+          * carries the data (0s and 1s) in the form of signals
+          * Signals can be electric, optical, or wireless
     * Port Numbers  
       * Port number is a 16-bit value, So it can store 2^16=65536 digits i.e 0 to 65535
       * Three types:
