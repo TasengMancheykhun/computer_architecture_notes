@@ -147,17 +147,30 @@
           * Provides logical addressing (IP addresses)
           * Performs routing
           * Provides an IP datagram format
+
           * ARP (Address Resolution Protocol)
             * Sender knows the IP address but not the MAC address. Request will be broadcasted to every computer when searching for IP address
             * Input: IP address of a computer, Output: its MAC Address
+
           * ICMP (Internet Control Message Protocol) 
             * This protocol helps IP deal with problems.
               * IP is connectionless
               * Unreliable
               * Unacknowledged
             * Suppose Machine A sends a packet to Machine B, and Machine B is down. A router that is connected to B knows this and discards the packet sent by A, and informs A to stop sending packets through ICMP protocol.  
+            * ICMP Message types: 
+              * Error-reporting messages: Used to report problems
+              * Query messages: Ping command to test the connection and gain information
+                * Ping = Computer A sends test packets and computer B acknowledges
+
+          * IP Address
+              * dotted decimal notation
+              * Has two parts: Network Id and Host Id 
+              * classful addressing: Means some portion of the network id is reserved to indicate class of IP address
+              * 
+                
               
         * Network Access *(layer 1)*
           * Ethernet, PPP, ADSL
     
-    *   
+    *      
