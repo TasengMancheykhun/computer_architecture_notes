@@ -163,11 +163,24 @@
               * Query messages: Ping command to test the connection and gain information
                 * Ping = Computer A sends test packets and computer B acknowledges
 
+          * DHCP protocol (Dynamic Host COnfiguration Protocol)
+            * Machine has fixed MAC address but not fixed IP address
+            * Machine will send out a request that my MAC address is this, can anybody allot me an IP address. The DHCP server will allot the machine an IP address through the DHCP protocol. 
+
           * IP Address
               * dotted decimal notation
               * Has two parts: Network Id and Host Id 
               * classful addressing: Means some portion of the network id is reserved to indicate class of IP address
-              * 
+              * IP address: total 8 bits x 4 = 32 bits
+                * first bit
+                * class A = 0-127
+                  * min 00000000, max 01111111
+                * class B = 128-191
+                  * min 10000000, max 11111111
+                * class C = 192-223
+                  * min 11000000, max 11111111   
+                * class D 
+                * class E    
                 
               
         * Network Access *(layer 1)*
