@@ -82,20 +82,20 @@
     * OSI - Open Systems Interconnection
       * Sometimes also called ISO/OSI 
       * Contains 7 layers
-        * Application Layer
+        * Application Layer *(layer 7)*
           * HTTP(access web pages), SMTP (Email), FTP (file transfer), DNS (Querying domain names)
           * Encapsulation begins here
-        * Presentation Layer
+        * Presentation Layer *(layer 6)*
           * Translation: Encodes to common format to take care of differences  
           * Encryption: To achieve confidentiality or privacy
           * Compression: Reduces the number of bits needed to be transmitted
-        * Session Layer
+        * Session Layer *(layer 5)*
           * Manages the session between applications
           * Eg: Between browser of the source computer and server of the destination computer
-        * Transport Layer
+        * Transport Layer *(layer 4)*
           * Identifies the application on the destination computer using port numbers
           * Eg: One server, multiple applications: FTP, Telnet session, Webpage 
-        * Network Layer
+        * Network Layer *(layer 3)*
           * Sender and receiver in the same network use MAC addresses
           * Sender and receiver in different networks cannot use MAC addresses. So they need to use IP address
           * MAC address: S---[switch]---R
@@ -112,9 +112,9 @@
               * Usually temporary
               * Useful outside a network (e.g. to reach another computer on the internet, anywhere in the world)
 
-        * Data Link Layer
+        * Data Link Layer *(layer 2)*
           * 
-        * Physical Layer
+        * Physical Layer *(layer 1)*
 
     * Port Numbers  
       * Port number is a 16-bit value, So it can store 2^16=65536 digits i.e 0 to 65535
