@@ -124,4 +124,15 @@
         * Temporary/Ephemeral: 1024-49151 - used in client
         * Dynamic, Usage-based: 49152-65535
      
-   
+    * TCP/IP protocol suite
+      * Came before OSI 
+      * Has 4 layers, not 7
+        * Application layer *(layer 4)*
+          * Telnet, HTTP, SMTP, FTP, DNS, SSH 
+        * Transport layer *(layer 3)*
+          * TCP, UDP
+        * Internet layer *(layer 2)*
+          * IP, ICMP, ARP, DHCP
+        * Network Access *(layer 1)*
+          * Ethernet, PPP, ADSL
+    
