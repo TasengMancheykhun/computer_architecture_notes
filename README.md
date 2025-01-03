@@ -101,10 +101,16 @@
           * MAC address: S---[switch]---R
           * IP address: S---[switch]---[Router]---[Router]---[switch]---R 
           * Each computer has two types of addresses:
+
             * MAC address/Physical address/Hardware address
               * Fixed address, Hardcoded on the Network Interface Card(NIC)
-              * Differenet for different network type (Eg. Ethernet card, WiFi card) 
-              *Useful within or inside a network
+              * Different for different network type (Eg. Ethernet card, WiFi card) 
+              * Useful within or inside a network
+ 
+            * IP address/Logical address/Virtual address
+              * Given by the network provider or your organisation
+              * Usually temporary
+              * Useful outside a network (e.g. to reach another computer on the internet, anywhere in the world)
 
         * Data Link Layer
           * 
