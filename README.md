@@ -96,6 +96,8 @@
           * Identifies the application on the destination computer using port numbers
           * Eg: One server, multiple applications: FTP, Telnet session, Webpage 
         * Network Layer *(layer 3)*
+          * This layer uses IP address to send information
+          *General Info about IP and MAC address*
           * Sender and receiver in the same network use MAC addresses
           * Sender and receiver in different networks cannot use MAC addresses. So they need to use IP address
           * MAC address: S---[switch]---R
