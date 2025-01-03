@@ -130,7 +130,16 @@
         * Application layer *(layer 4)*
           * Telnet, HTTP, SMTP, FTP, DNS, SSH 
         * Transport layer *(layer 3)*
-          * TCP, UDP
+          * TCP (Transmission Control Protocol)
+            * Reliable protocol
+            * Gauranteed delivery
+            * Uses connections, acknowledgements
+            * Used for text-based data
+          * UDP (User Datagram Protocol)
+            * Unreliable protocol
+            * No guarantee of delivery
+            * No connections, no acknowledgements
+            * Useful for audio, video or wherever we need speed but not guarantee
         * Internet layer *(layer 2)*
           * IP, ICMP, ARP, DHCP
         * Network Access *(layer 1)*
