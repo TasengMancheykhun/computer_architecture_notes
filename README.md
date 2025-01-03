@@ -1,3 +1,53 @@
+* Computer
+  * Main components
+    * Memory subsystem
+    * Input/Output subsystem
+    * CPU
+  
+  * Program Execution
+    * Stored Program
+      * Idea of stored program proposed by John Von Neuman
+            
+ * Computer Architecture 
+  * Structure of a computer
+  * Instruction set of a computer
+    * Instruction set = Language of a computer
+    * Different CPU family = different instruction set
+    
+    * Binary Language
+    * Assembly Language: English equivalent language
+    * Assembly language will get converted to binary language.
+
+  * Designing a computer: Before designing a computer, following things need to be taken care of:
+    * Computer Performance requirements
+      * Computer Performance measured by:
+        * For individual computer:
+          * Response time or Execution time = Time at the end of the task - Time at the start of the task 
+        * At an overall level:
+          * Throughput or Bandwidth
+          * Bandwidth: The maximum amount of data packets or information that can be transferred per ssecond
+          * Throughput: The actual amount of data packets or information that gets transferred per second 
+
+        * Computer Performance = 1/(CPU Execution time)
+        
+        * Clock cycle = Time taken to complete a clock cycle = Time period
+        * Clock speed or clock rate = 1/Clock cycle
+        * Clock speed = Number of clock cycles per second 
+
+        * CPU execution time for a program = Number of CPU clock cycles for the program/Clock rate
+
+    * Interconnection between various parts of a computer
+    * Defining the instruction set. Must be simple 
+    *  
+
+
+
+
+
+
+
+
+
 * Networking
   * Communication System 
     * Components
@@ -186,4 +236,17 @@
         * Network Access *(layer 1)*
           * Ethernet, PPP, ADSL
     
-    *      
+  * Networking devices     
+    * To connect devices within a network, by use of MAC addresses
+      * Hub ---> layer 2 device (Data link layer) 
+      * Switch ---> layer 2 device (Data link layer)
+
+    * To connect devices from different network, by use of IP addresses
+      * Router ---> layer 3 device (Network layer)
+
+    * Hub
+      * 
+    * Switch
+
+
+
