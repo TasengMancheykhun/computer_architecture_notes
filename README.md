@@ -42,9 +42,15 @@
   * CISC Architecture: Complex Instruction Set Computer
     * Eg: Intel
   * RISC Architecture: Reduced Instruction Set Computer
+    * Prefered by many
     * Eg: ARM
 
-
+  * Fetch-Decode-Execute Cycle
+    * Program execution happen line-by-line
+    * CPU fetch the instruction from RAM 
+    * CPU decode the instruction
+    * CPU execute the instruction
+    
 
 
 
