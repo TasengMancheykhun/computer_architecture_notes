@@ -56,7 +56,7 @@
   * Main bus types: 
     * Address bus: (Unidirectional) Only CPU can send to RAM, Used for specifying memory address for reading or writing of data.
     * Data bus: (Bidirectional) contains data to be written or data to be read
-    * Control bus: (Bidirectional) Species the operations, like read operation or write operation
+    * Control bus: (Bidirectional) Specifies the operations, like read operation or write operation
 
  * Address bus + Data bus + Control bus = System bus  
 
