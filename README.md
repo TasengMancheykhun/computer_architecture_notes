@@ -51,9 +51,14 @@
     * CPU decode the instruction
     * CPU execute the instruction
     
+* Computer Bus
+  * A communication link (set of wires) used inside a computer to send data, addresses, control signals, and power to various hardware components of the computer.  
+  * Main bus types: 
+    * Address bus: (Unidirectional) Only CPU can send to RAM, Used for specifying memory address for reading or writing of data.
+    * Data bus: (Bidirectional) Specifies data to be written or contains data that was read
+    * Control bus: (Bidirectional) Used for passing controlled signals
 
-
-
+ * Address bus + Data bus + Control bus = System bus  
 
 
 
