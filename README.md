@@ -99,8 +99,33 @@
   * Tightly Connected Architecture 
     * In this one change in part of a connection will impact overall computer interaction. 
 
+* CPU Organization
+  * CPU = Control Unit (CU) + Arithmetic and Logical Unit (ALU) + Registers
+    * ALU's purpose is to calulate and Register's purpose is to store
+  * Registers are fast memory inside the CPU
+    * Fastest type of memory because it is inside CPU
+    * Purpose: Purpose is to store the informations of arithmetic and logical operations during the calculation or store temporary results.
+    * What next instruction to do is also stored in register called Program Counter
+   
+  * Registers in x86 CPU
+    * General purpose registers: AX, BX, CX, DX. 
+      * Here, Size of each register = 16 bits
+      * Made of two separate 8-bit registers (high and low)
+      * Accumulator Register AX = AH, AL
+    * Segment registers: CS, DS, ES, SS
+      * Code Segement, Data Segment, Extra Segment, Stack Segment
 
+  * Arithmetic and Logical Unit (ALU)
+    * Performs most of the operations
+    * Its purpose is to calculate
 
+  * Control Unit (CU)
+    * It uses Instruction Pointer (IP) or Program Counter (PC), that contains the address of the next executable instruction
+    * It fetches instruction code (op code) from memory using Program Counter (PC)
+    * Move the op code into the instruction decoding register (Instruction Register (IR))
+    * Increment the value in IP/PC to get the next instruction after the current instruction is complete   
+    
+  
 * Networking
   * Communication System 
     * Components
