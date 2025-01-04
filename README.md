@@ -78,7 +78,22 @@
   * Harvard Architecture introduce the concept of 'prefetch buffer'
   * While one instruction is going on, other fetch instruction can happen and be stored in prefetch buffer.
   
-  * Huge improvement by removing the von Neumann bottleneck and introducing prefetch buffer
+  * Huge improvement by removing the von Neumann bottleneck and introducing prefetch buffer.
+* Point-to-point connection
+  * In this, every device is connected to every other device using a separate wire
+  * Used in earlier times
+  * Peripheral Component Interconnect (PCI)
+  * Advantage: Very fast
+  * Disadvantage: Huge number of wires required, adding new device increases connections, complicated
+
+* Multi-point connection
+  * A common bridge connects various devices 
+  * PCI Express (Peripheral Component Interconnect Express)
+  * Modern technique
+  * In PCI Express: The CPU, Memory and Cache Memory are connected by a "Bridge chip"
+  * Now, if we want to improve connection performance, we need to improve only this Bridge chip. In contrast to previous case where, improving connection performance is hard because altering one wire can disturb the connections.
+
+
 
 
 * Networking
