@@ -124,7 +124,11 @@
     * It fetches instruction code (op code) from memory using Program Counter (PC)
     * Move the op code into the instruction decoding register (Instruction Register (IR))
     * Increment the value in IP/PC to get the next instruction after the current instruction is complete   
-    
+  
+  * Instruction Set Architecture (ISA)
+    * Every CPU understands a fixed set of machine language instructions, called Instructions set
+    * Different CPU families (e.g. Intel, ARM) = Different ISA
+    * i.e Intel CPU's machine language != ARM's machine language    
   
 * Networking
   * Communication System 
