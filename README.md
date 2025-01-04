@@ -74,8 +74,9 @@
   * Separate memory and separate bus for data and instructions
   * There are multi bus
   * Simultaneously, two memory fetches possible 
-
-
+  * If two instructions can be fetched, but there is only a single instruction register (IR). Where will the other instruction be stored?? ---> at prefetch buffer
+  * Harvard Architecture introduce the concept of 'prefetch buffer'
+  * While one instruction is going on, other fetch instruction can happen and be stored in prefetch buffer.
   
 
 
