@@ -78,7 +78,7 @@
   * Harvard Architecture introduce the concept of 'prefetch buffer'
   * While one instruction is going on, other fetch instruction can happen and be stored in prefetch buffer.
   
-
+  * Huge improvement by removing the von Neumann bottleneck and introducing prefetch buffer
 
 
 * Networking
