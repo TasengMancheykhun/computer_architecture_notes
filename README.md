@@ -64,6 +64,14 @@
    * Address bus = specifies the address of the memory location
    * Data bus = specifies the data to be written
    * Control bus = specifies the write operation
+
+* von Neumann versus Harvard Architecture
+  * Single memory and single bus for data and instructions 
+  * At a time either data will be sent or instruction will be sent in the bus
+  * von Neumann bottleneck: Instruction as well as data cannot be sent simultaneously, leading to von-Neumann Bottleneck.
+  * 
+
+
   
 
 
