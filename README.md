@@ -123,12 +123,24 @@
     * It uses Instruction Pointer (IP) or Program Counter (PC), that contains the address of the next executable instruction
     * It fetches instruction code (op code) from memory using Program Counter (PC)
     * Move the op code into the instruction decoding register (Instruction Register (IR))
-    * Increment the value in IP/PC to get the next instruction after the current instruction is complete   
+    * Increment the value in IP/PC to get the next instruction after the current instruction is complete 
+    * In Fetch-Decode-Execute, Fetch and Decode is done by CU. In execute, CU participates but mostly done by ALU.  
   
   * Instruction Set Architecture (ISA)
     * Every CPU understands a fixed set of machine language instructions, called Instructions set
     * Different CPU families (e.g. Intel, ARM) = Different ISA
-    * i.e Intel CPU's machine language != ARM's machine language    
+    * i.e Intel CPU's machine language != ARM's machine language
+
+  * Op Code and Operand
+    * Instruction: Has two parts:
+      * Op code: Operation/instruction to be performed
+      * Operand: Data/value/memory location on which the op code is going to work
+
+      * Eg: Add R2, R2
+        * Add = op code, R1 and R2 - operand
+        * R2 = source, R1 = destination  
+        * R2 remains unchanged, R1 may get modified
+      
   
 * Networking
   * Communication System 
