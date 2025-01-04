@@ -60,6 +60,11 @@
 
  * Address bus + Data bus + Control bus = System bus  
 
+ * Eg: Suppose the CPU wants to write a value of 0 in memory location 125 of RAM
+   * Address bus = specifies the address of the memory location
+   * Data bus = specifies the data to be written
+   * Control bus = specifies the write operation
+  
 
 
 
