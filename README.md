@@ -92,7 +92,12 @@
   * Modern technique
   * In PCI Express: The CPU, Memory and Cache Memory are connected by a "Bridge chip"
   * Now, if we want to improve connection performance, we need to improve only this Bridge chip. In contrast to previous case where, improving connection performance is hard because altering one wire can disturb the connections.
+  * Bridge chip is furthur connected to I/O devices by a 'switch'. The Advantage now is that suppose a new device is to connected. We will connect through the switch. No need to touch the Bridge chip.
 
+  * This is called 'Loosely Connected Architecture'
+    * In this architecture, We can change connections and the overall computer interaction will not be impacted
+  * Tightly Connected Architecture 
+    * In this one change in part of a connection will impact overall computer interaction. 
 
 
 
