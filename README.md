@@ -68,7 +68,7 @@
 * von Neumann versus Harvard Architecture
   * Single memory and single bus for data and instructions 
   * At a time either data will be sent or instruction will be sent in the bus
-  * von Neumann bottleneck: Instruction as well as data cannot be sent simultaneously, leading to von-Neumann Bottleneck.
+  * von Neumann bottleneck: Since there is only a single bus, instruction as well as data cannot be sent simultaneously, leading to von-Neumann Bottleneck due to clash of instruction and data
   * 
 
 
