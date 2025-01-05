@@ -206,9 +206,41 @@
           * mov ax, [1000+bx] 
         * Used in Arrays, pointers, records and other data structures
 
-   * Complex CPUs will have more addressing modes
-   * Simple CPUs will have lesser addressing modes   
+  * Complex CPUs will have more addressing modes
+  * Simple CPUs will have lesser addressing modes   
   
+
+* Number Systems and Data Representation:
+
+  * Decimal numbers, Binary Numbers, Hexadecimal Numbers
+
+  * Reset and Carry
+  * Bit
+    * Binary Digit = Bit
+    * One bit is stored in one transistor
+    * Binary Weights:       
+      * Just like in decimal number, in binary number system also, each bit has a positional weight
+        * 128 64 32 16 8 4 2 1
+  
+  * Binary to decimal conversion: 8421 method
+
+  * Base or Radix
+    * Base or radix of a number system is equal to the number of digits it has
+    * Decimal number system's base is 10
+    * Binary number system's base is 2      
+
+  * Decimal nmber to Binary Conversion
+    * Divide number by 2, keep remainder
+
+  * Hexadecimal Numbers
+    * Used in Mcroprocessor work. Much shorter than binary numbers
+    * Eg: 10101101011 in binary = 56B in hex
+
+    * Hexadecimal = Hex + Decimal
+    * Digits 0 to 9 and letters from A to F 
+    * Reset and Carry: 0 to 9 then A to F, then reset to 0 
+
+
 * Networking
   * Communication System 
     * Components
