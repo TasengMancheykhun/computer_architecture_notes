@@ -114,11 +114,11 @@
       * Accumulator Register AX = AH, AL
     * Segment registers: CS, DS, ES, SS
       * Code Segement, Data Segment, Extra Segment, Stack Segment
-
+  
   * Arithmetic and Logical Unit (ALU)
     * Performs most of the operations
     * Its purpose is to calculate
-
+  
   * Control Unit (CU)
     * It uses Instruction Pointer (IP) or Program Counter (PC), that contains the address of the next executable instruction
     * It fetches instruction code (op code) from memory using Program Counter (PC)
@@ -130,7 +130,7 @@
     * Every CPU understands a fixed set of machine language instructions, called Instructions set
     * Different CPU families (e.g. Intel, ARM) = Different ISA
     * i.e Intel CPU's machine language != ARM's machine language
-
+  
   * Op Code and Operand
     * Instruction: Has two parts:
       * Op code: Operation/instruction to be performed
@@ -146,12 +146,11 @@
     * 32 bit CPU - 32 wires between CPU and main memory (Address bus = 32 bits)
     * A 32 bit CPU can access 2^32 = 4,294,967,295 ~ 4GB RAM locations at a time
     
-
   * Intel x64 Architecture: 
     * 64 bit architecture
     * 64 bit CPU - 64 wires between CPU and main memory (Address bus = 64 bits)
     * A 64 bit CPU can access 2^64 ~ 18.4 exabyte memeory locations at a time
-
+    
   * **[Imp]** Overview of x86 Data Types:
     * Bit = 1
     * Nibble = 4 bits
@@ -162,6 +161,17 @@
 
     * 1 Byte can store number ranging from 0-255
     * 1 Word can store number ranging from 0-65,535
+  
+  * Addressing Modes : This decides how we identify the operand of our instruction
+    * Types of Addressing modes:
+      * Register:    
+      * Immediate
+      * Direct
+      * Indirect
+      * Indexed 
+
+    * Advantage of Adressing modes: Allows more flexibility to the programmer, since the operands can be in the registers, memory, or in a memory location pointe to by another memory location
+    * Drawback: More complexity in instructions
   
 * Networking
   * Communication System 
