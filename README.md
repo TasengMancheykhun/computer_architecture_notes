@@ -140,7 +140,25 @@
         * Add = op code, R1 and R2 - operand
         * R2 = source, R1 = destination  
         * R2 remains unchanged, R1 may get modified
-      
+     
+  * Intel x86 Architecture:
+    * 16 bit instruction set--> later modified to 32 bit
+    * 32 bit CPU - 32 wires between CPU and main memory (Address bus = 32 bits)
+    * A 32 bit CPU can access 2^32 = 4,294,967,295 ~ 4GB RAM locations at a time
+    
+
+  * Intel x64 Architecture: 
+    * 64 bit architecture
+    * 64 bit CPU - 64 wires between CPU and main memory (Address bus = 64 bits)
+    * A 64 bit CPU can access 2^64 ~ 18.4 exabyte memeory locations at a time
+
+  * **Imp** Overview of x86 Data Types:
+    * Bit = 1
+    * Nibble = 4 bits
+    * Byte = 8 bits
+    * Word = 16 bits
+    * Double word = 32 bits
+    * Quadword = 64 bits
   
 * Networking
   * Communication System 
