@@ -159,6 +159,9 @@
     * Word = 16 bits
     * Double word = 32 bits
     * Quadword = 64 bits
+
+    * 1 Byte can store number ranging from 0-255
+    * 1 Word can store number ranging from 0-65,535
   
 * Networking
   * Communication System 
