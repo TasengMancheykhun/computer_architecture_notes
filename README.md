@@ -163,15 +163,49 @@
     * 1 Word can store number ranging from 0-65,535
   
   * Addressing Modes : This decides how we identify the operand of our instruction
-    * Types of Addressing modes:
-      * Register:    
-      * Immediate
-      * Direct
-      * Indirect
-      * Indexed 
-
     * Advantage of Adressing modes: Allows more flexibility to the programmer, since the operands can be in the registers, memory, or in a memory location pointe to by another memory location
     * Drawback: More complexity in instructions
+
+    * Types of Addressing modes:
+
+      * Register Addressing Mode: 
+        * Operands are in the CPU registers
+        * Fastest
+        * Eg: Program to add two numbers
+          * mov ax, 03h
+          * mov bx, 05h
+          * add ax, bx 
+
+      * Immediate Addressing Mode:
+        * Operand is a constant
+        * No memory access needed
+        * Limited use
+        * Eg: Program to add a constant 05 to a register ax that already contains some value 03
+          * mov ax, 03h
+          * add ax, 05h
+      * Direct Addressing Mode:
+        * Operand's memory address is used
+        * Simplest
+        * Slower than Register addressing mode and Immediate Addressing mode
+        * Limited by register and memory size 
+        * Eg: Program to add a value stored at memory address 1000 into a register
+          * mov ax, 03h
+          * mov [1000h], 05h
+          * add ax, [1000h] 
+      * Indirect Addressing Mode
+        * Actual value is at a memory address, and address value is in a register
+        * Complex and slower than Register & immediate & also direct addressing mode
+        * Eg: Program to read the value at a memory address stored in a register 
+          * mov ax, 03h
+          * mov [1000h], 05h
+          * mov bx, 1000h
+          * add ax, [bx]
+      * Indexed Addressing Mode
+        * Actual value is at a memory address, and address value plus an index is in a register
+        * Eg:
+          * mov ax, [1000+bx] 
+        * Used in Arrays, pointers, records and other data structures
+ 
   
 * Networking
   * Communication System 
