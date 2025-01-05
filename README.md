@@ -305,6 +305,42 @@
 
   * **[IMP]** Binary Arithmetic
 
+    * Binary Addition:
+      * Rules of Binary Addition:
+        * 0 + 0 = 0
+        * 0 + 1 = 1
+        * 1 + 0 = 1
+        * 1 + 1 = 10      (RESET and CARRY)
+        * 1 + 1 + 1 = 11
+
+        * Eg: 11100 + 11010 = 110110
+
+    * Binary Subtraction:
+      * Rules of Binary subtraction:
+        * 0 - 0 = 0
+        * 1 - 0 = 1
+        * 1 - 1 = 0
+        * 10 - 1 = 1
+
+        * Eg: 111 - 101 = 010 
+        * 1101 - 1010 = 0011
+        * Cheap trick - just convert to decimal and do the subtraction
+  
+  * Signed Binary Numbers:
+    * Also called signed-magnitude numbers
+    * Used to represent Negative decimal numbers. Eg: -5, -57, -78, +98, etc
+    * For binary numbers,
+      * positive sign is 0
+      * negative sign is 1
+      
+    * In binary 
+      * 0001 means +1 
+      * 1001 means -1
+      * 0010 means +2
+      * 1010 means -2 
+ 
+
+
 
 * Networking
   * Communication System 
