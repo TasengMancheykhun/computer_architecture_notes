@@ -152,7 +152,7 @@
     * 64 bit CPU - 64 wires between CPU and main memory (Address bus = 64 bits)
     * A 64 bit CPU can access 2^64 ~ 18.4 exabyte memeory locations at a time
 
-  * **Imp** Overview of x86 Data Types:
+  * **[Imp]** Overview of x86 Data Types:
     * Bit = 1
     * Nibble = 4 bits
     * Byte = 8 bits
