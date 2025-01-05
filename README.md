@@ -261,8 +261,14 @@
     * Hexadecimal number system's base is 16
 
   * Hexadecimal to Binary Conversion
-    * Eg: 9AF ----> 9 10 16 ----> 1001 1010 1111   
+    * First convert each digit to decimal, then to binary
 
+    * Eg: 9AF ----> 9 10 16 ----> 1001 1010 1111
+    * Eg: C5E2 ----> 12 5 14 2 ----> 1100 0101 1110 0010   
+
+  * Binary to Hexadecimal Conversion
+    * Eg: 1000 1100 ----> 8 12 ----> 8 C
+    * Eg: 1110 1000 1101 0110 ----> 14 8 13 6 ----> E 8 D 6
 
 
 * Networking
