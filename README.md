@@ -224,11 +224,6 @@
   
   * Binary to decimal conversion: 8421 method
 
-  * Base or Radix
-    * Base or radix of a number system is equal to the number of digits it has
-    * Decimal number system's base is 10
-    * Binary number system's base is 2      
-
   * Decimal nmber to Binary Conversion
     * Divide number by 2, keep remainder
 
@@ -258,6 +253,17 @@
     * 13 1101 D
     * 14 1110 E
     * 15 1111 F
+
+  * Base or Radix
+    * Base or radix of a number system is equal to the number of digits it has
+    * Decimal number system's base is 10
+    * Binary number system's base is 2      
+    * Hexadecimal number system's base is 16
+
+  * Hexadecimal to Binary Conversion
+    * Eg: 9AF ----> 9 10 16 ----> 1001 1010 1111   
+
+
 
 * Networking
   * Communication System 
