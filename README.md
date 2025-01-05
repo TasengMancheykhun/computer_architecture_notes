@@ -205,7 +205,9 @@
         * Eg:
           * mov ax, [1000+bx] 
         * Used in Arrays, pointers, records and other data structures
- 
+
+   * Complex CPUs will have more addressing modes
+   * Simple CPUs will have lesser addressing modes   
   
 * Networking
   * Communication System 
