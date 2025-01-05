@@ -233,13 +233,31 @@
     * Divide number by 2, keep remainder
 
   * Hexadecimal Numbers
-    * Used in Mcroprocessor work. Much shorter than binary numbers
+    * Used in Microprocessor work 
+    * Much shorter than binary numbers
     * Eg: 10101101011 in binary = 56B in hex
 
     * Hexadecimal = Hex + Decimal
     * Digits 0 to 9 and letters from A to F 
     * Reset and Carry: 0 to 9 then A to F, then reset to 0 
 
+  * Comparing Decimal, Binary and Hexadecimal
+    * 0  0000 0
+    * 1  0001 1
+    * 2  0010 2  
+    * 3  0011 3
+    * 4  0100 4
+    * 5  0101 5
+    * 6  0110 6
+    * 7  0111 7
+    * 8  1000 8
+    * 9  1001 9
+    * 10 1010 A 
+    * 11 1011 B
+    * 12 1100 C   
+    * 13 1101 D
+    * 14 1110 E
+    * 15 1111 F
 
 * Networking
   * Communication System 
