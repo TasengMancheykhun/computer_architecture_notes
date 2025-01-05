@@ -269,6 +269,41 @@
   * Binary to Hexadecimal Conversion
     * Eg: 1000 1100 ----> 8 12 ----> 8 C
     * Eg: 1110 1000 1101 0110 ----> 14 8 13 6 ----> E 8 D 6
+   
+  * Hexadecimal to Decimal Conversion
+    * Little Tedious
+    * Eg: F8E6 
+      * (Fx16^3) + (8x16^2) + (Ex16^1) + (6x16^0)
+      * (15x16^3) + (8x16^2) + (14x16^1) + (6x16^0)
+      * 61440 + 2048 + 224 + 6     
+      * 63,718
+    
+  * Decimal to Hexadecimal Conversion
+    * Eg: 63718
+      * Divide by 16, Store remainder
+
+  * Binary-coded-Decimal (BCD) Numbers
+    * BCD numbers express each decimal digit directly as sequence of its four bit representation
+    * Decimal to BCD conversion
+      * Example: Decimal number 2945 in BCD is
+        * 0010 1001 0100 0101
+
+    * BCD to Decimal conversion
+      * Directly read each four bit and write the corresponding decimal digit
+      * Example:  0010 1000 0111 0100
+        * 2 8 7 4
+
+  * ASCII Code
+    * American Standard Code for Information Interchange (ASCII)
+    * purpose: Computers need to deal with numbers, alphabets and other symbols. But they only understand binary (0 and 1)
+    * ASCII is a standard code to map symbols to binary values
+    * Initially 7-bit (128 characters), but later modified to 8-bit (256 characters) (Extended ASCII)
+
+  * Unicode (UTF)
+    * Unicode is a universal character encoding standard
+    * 4 byte = 2^32 characters allowed. Hence provides a very wide variety of encoding
+
+  * **[IMP]** Binary Arithmetic
 
 
 * Networking
