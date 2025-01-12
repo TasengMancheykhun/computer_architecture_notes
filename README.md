@@ -369,13 +369,13 @@
 
   * Floating Point Numbers Storage in Memory 
     * Eg 1: 4.25 ----> has two parts: Integer part (4) and Fractional part (0.25)
-    * Integer part: Convert 4 to binary 4 = 100
-    * Fractional part: 0.25
-      * Multiply fractional part with 2 until it becomes 1.0
-      * 0.25 * 2 = 0.50 ----> Take 0 and move 0.50 to next step
-      * 0.50 * 2 = 1.00 ----> Take 1 and stop the process as there is no remainder
-      * Hence, 0.25 = 01
-    * Lastly, 4.25 = 100.01
+      * Integer part: Convert 4 to binary 4 = 100
+      * Fractional part: 0.25
+        * Multiply fractional part with 2 until it becomes 1.0
+        * 0.25 * 2 = 0.50 ----> Take 0 and move 0.50 to next step
+        * 0.50 * 2 = 1.00 ----> Take 1 and stop the process as there is no remainder
+        * Hence, 0.25 = 01
+      * Lastly, 4.25 = 100.01
 
     * Eg 2: 10.75:
       * Integral part: 10 = 1010
