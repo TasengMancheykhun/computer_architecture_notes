@@ -347,10 +347,25 @@
       * Sign-magnitude numbers has two zeroes (e.g. 000 is +0 and 100 is -0)
 
   * How are Characters stored in Memory? 
-    * A - Z = 65 - 90 (Decimal Number system)
-    * a - z = 97 - 122 (Decimal Number system)
+    * A - Z = 65 - 90 (ASCII value / Decimal Number system)
+    * a - z = 97 - 122 (ASCII value / Decimal Number system)
+    * Each character is stored using its 8-bit ASCII representation in binary
+      * Eg: ASCII code for character c : 99 (decimal) = 01100011 (binary)
 
+  * Positive Integers
+    * 4 bytes (32 bits) per integer
+      * 1st bit for sign, remaining 31 bits for value
+    * Eg: Integer 65 is stored in memory as binary,
+      * 00000000 00000000 00000000 01000001
+    * Most Significant Bit (MSB), here is 0, since the number is Positive   
 
+  * Negative Integers
+    * 4 bytes (32 bits) per integer
+      * 1st bit for sign, remaining 31 bits for value
+    * Eg: Integer -65 is stored in memory as binary,
+      * 65 in 32-bit binary = 00000000 00000000 00000000 01000001
+      * 2's complement = 11111111 11111111 11111111 10111110 
+      * Most Significant Bit (MSB), here is 1, since the number is Negative
 
 * Networking
   * Communication System 
