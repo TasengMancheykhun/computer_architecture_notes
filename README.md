@@ -367,7 +367,8 @@
       * 2's complement = 11111111 11111111 11111111 10111110 
       * Most Significant Bit (MSB), here is 1, since the number is Negative
 
-  * Floating Point Numbers Storage in Memory 
+  * Floating Point Numbers Storage in Memory
+    * 4 bytes (32 bits) 
     * Eg 1: 4.25 ----> has two parts: Integer part (4) and Fractional part (0.25)
       * Integer part: Convert 4 to binary 4 = 100
       * Fractional part: 0.25
@@ -384,6 +385,35 @@
         * 0.50*2 = 1.0 -----> Take 1 and stop the process as there is no remainder
         * Hence, 0.75 = 11
       * Lastly, 10.75 = 1010.11
+
+    * A floating point number is stored in memory as made up of three parts:
+      * Sign
+      * Exponent
+      * Significant Value
+
+    * Normalized form
+      * 10.75 = 1010.11 = 1.01011 * 2^3
+
+      * We need to add bias to exponent
+        * bias = $2^{n-1}-1$
+        * n = Number of bits for exponent = 8
+        * bias = $2^{8-1}-1$ = 127
+
+      * The normalized exponent is: 3+127 = 130
+      * Binary form of 130 is 10000010
+
+      * Sign bit = 0, because 10.75 is positive
+      * Exponent = 130, which is 10000010
+      * Significant value = 1.01011. Taking only the part after the dot, i.e, 01011
+
+      * Hence, 10.75 is stored as 
+      * 0 10000010 01011000000000000000000
+      * 32bit = 1 bit + 8 bit + 23 bit 
+
+      * And, -10.75 is stored as 
+      * 1 10000010 01011000000000000000000
+      * 32bit = 1 bit + 8 bit + 23 bit 
+
 
 
 * Networking
