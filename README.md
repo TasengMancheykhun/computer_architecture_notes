@@ -368,14 +368,23 @@
       * Most Significant Bit (MSB), here is 1, since the number is Negative
 
   * Floating Point Numbers Storage in Memory 
-    * Eg: 4.25 ----> has two parts: Integer part (4) and Fractional part (0.25)
+    * Eg 1: 4.25 ----> has two parts: Integer part (4) and Fractional part (0.25)
     * Integer part: Convert 4 to binary 4 = 100
     * Fractional part: 0.25
       * Multiply fractional part with 2 until it becomes 1.0
       * 0.25 * 2 = 0.50 ----> Take 0 and move 0.50 to next step
       * 0.50 * 2 = 1.00 ----> Take 1 and stop the process as there is no remainder
       * Hence, 0.25 = 01
-      * Lastly, 4.25 = 100.01 
+    * Lastly, 4.25 = 100.01
+
+    * Eg 2: 10.75:
+      * Integral part: 10 = 1010
+      * Fractional part: 
+        * 0.75*2 = 1.50 ----> Take 1 and move 0.50 to next step  
+        * 0.50*2 = 1.0 -----> Take 1 and stop the process as there is no remainder
+        * Hence, 0.75 = 11
+      * Lastly, 10.75 = 1010.11
+
 
 * Networking
   * Communication System 
