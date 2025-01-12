@@ -66,12 +66,12 @@
    * Control bus = specifies the write operation
 
 * von Neumann Architecture
-  * Single memory and single bus for data and instructions 
+  * Single memory space and single bus for data and instructions 
   * At a time either data will be sent or instruction will be sent in the bus
   * von Neumann bottleneck: Since there is only a single bus, instruction as well as data cannot be sent simultaneously, leading to von-Neumann Bottleneck due to clash of instruction and data
 
 * Harvard Architecture
-  * Separate memory and separate bus for data and instructions
+  * Separate memory space and separate bus for data and instructions
   * There are multi bus
   * Simultaneously, two memory fetches possible 
   * If two instructions can be fetched, but there is only a single instruction register (IR). Where will the other instruction be stored?? ---> at prefetch buffer
@@ -327,7 +327,7 @@
         * Cheap trick - just convert to decimal and do the subtraction
   
   * Signed Binary Numbers:
-    * Also called signed-magnitude numbers
+    * Also called sign-magnitude numbers
     * Used to represent Negative decimal numbers. Eg: -5, -57, -78, +98, etc
     * For binary numbers,
       * positive sign is 0
@@ -338,7 +338,17 @@
       * 1001 means -1
       * 0010 means +2
       * 1010 means -2 
- 
+
+  * 2's Complement
+    * 2's complement = 1's complement of a number + 1 
+    * Advantage of 2's complement:
+      * Sign-magnitude numbers need separate hardware for binary addition and subtraction. But with 2's complement, we can use a simple digital ciruit to perform both addition and subtraction.
+
+      * Sign-magnitude numbers has two zeroes (e.g. 000 is +0 and 100 is -0)
+
+  * How are Characters stored in Memory? 
+    * A - Z = 65 - 90 (Decimal Number system)
+    * a - z = 97 - 122 (Decimal Number system)
 
 
 
