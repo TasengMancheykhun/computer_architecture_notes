@@ -414,7 +414,43 @@
       * 1 10000010 01011000000000000000000
       * 32bit = 1 bit + 8 bit + 23 bit 
 
+* Memory
+  * Memory Classification
+    * RAM 
+      * SRAM (Static RAM)
+        * Used as cache memory
+        * Does not need to be constantly refreshed  
+        * Has faster data access time 
+      * DRAM (Dynamic RAM)
+        * Needs to be constantly refreshed 
+        * Has less faster data access time
 
+    * ROM  
+      * PROM
+      * EPROM
+      * EEPROM
+
+  * Memory Hierarchy
+    * Registers: 1 nsec [Fastest access, Most expensive], <1KB 
+    * Cache: 2 nsec, 4MB  
+    * Main memory: 10 nsec, 1-8 GB 
+    * Magnetic Disk: 10 msec [Slowest access, least costly], 1-4 TB
+  
+  * Cache Memory is placed between CPU and Main Memory
+
+  * Memory Interleaving
+    * Improve memory access performance by distributing data across multiple memory modules or interleaves
+    * Example: If we have 2 memory modules, the memory space might be divided into two interleaves: Interleave 0 and interleave 1
+    * Uses round robin algorithm
+    * Parallel memory access possible
+    * Useful in multi-core processors
+    
+    * Advantage of Memory Interleaving: The CPU can read memory modules one after the other quickly to access data. 
+
+  * Virtual Memory and Paging
+    *  
+      
+ 
 
 * Networking
   * Communication System 
