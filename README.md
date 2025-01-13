@@ -444,7 +444,13 @@
     * Uses round robin algorithm
     * Parallel memory access possible
     * Useful in multi-core processors
-    
+
+    * Example: Suppose we have 4 interleaved memory modules
+      * Module 0 contains memory addresses 0, 4, 8, 12, 16, ...
+      * Module 1 contains memory addresses 1, 5, 9, 13, 17, ...
+      * Module 2 contains memory addresses 2, 6, 10, 14, 18, ...
+      * Module 3 contains memory addresses 3, 7, 11, 15, 19, ... 
+
     * Advantage of Memory Interleaving: The CPU can read memory modules one after the other quickly to access data. 
 
   * Virtual Memory and Paging
