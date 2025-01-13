@@ -453,10 +453,36 @@
 
     * Advantage of Memory Interleaving: The CPU can read memory modules one after the other quickly to access data. 
 
-  * Virtual Memory and Paging
-    *  
-      
- 
+  * Paging
+    * When the Process memory requirement is larger than the physical capacity of the RAM (Physical address space), the process address space is divided into smaller parts (called as Page), such that only one of these parts is loaded into the RAM at any time.
+    * This technique is called Paging.
+    * The physical memory RAM is divided into *page frames*
+    * Page table or Page map table: Maps virtual address to physical address.
+    
+  * Virtual Memory
+    * It is the result of paging
+    * Now the virtual memory is much more than its real physical capacity
+    * In the virtual memory, the process memory is divided into *virtual pages*
+    * Some virtual pages are loaded into page frames and the remaining ones are in the secondary memory  
+  * Page Replacement
+    * *Page fault*: Program refers to a virtual memory address that is not present in the physical/real main memory
+    * Eg: If say 'main' function is loaded in the RAM, but CPU wants to use 'calculate' function which is not loaded in the limited RAM. This is called Page fault.
+
+    * *Working set*: Set of pages that a program is actively and heavily using
+
+    * *Page replacement policy*: 
+      * Decides how to handle page faults
+      * Least Recently Used (LRU): Swaps out the page least recently used
+      * First In First Out (FIFO): Removes the first loaded page
+
+    * *Thrashing*:
+      * Repeated page faults occuring
+
+    * *Demand paging*:
+      * Only load pages on demand, not in advance
+
+    * *Dirty bit*:
+      * Dirty bit tells the OS if any page frame in the RAM has been modified. Dirty bit becomes 1 when modified, else 0. Dirty bit makes sure changes are not lost in the event of page replacement.  
 
 * Networking
   * Communication System 
