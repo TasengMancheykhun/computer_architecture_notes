@@ -482,7 +482,13 @@
       * Only load pages on demand, not in advance
 
     * *Dirty bit*:
-      * Dirty bit tells the OS if any page frame in the RAM has been modified. Dirty bit becomes 1 when modified, else 0. Dirty bit makes sure changes are not lost in the event of page replacement.  
+      * Dirty bit tells the OS if any page frame in the RAM has been modified. Dirty bit becomes 1 when modified, else 0. Dirty bit makes sure changes are not lost in the event of page replacement.
+
+ * Associative Memory:
+   * Also called Content-Addressable Memory (CAM)
+   * Allows data to be retrieved based on its content rather than its specific memory address
+   * Search keywords/patterns, instead of providing memory address
+   * Used in cache memory, networkd routers and applications where fast search is needed.    
 
 * Networking
   * Communication System 
