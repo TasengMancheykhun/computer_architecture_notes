@@ -488,7 +488,7 @@
    * Also called Content-Addressable Memory (CAM)
    * Allows data to be retrieved based on its content rather than its specific memory address
    * Search keywords/patterns, instead of providing memory address
-   * Used in cache memory, networkd routers and applications where fast search is needed.    
+   * Used in cache memory, network routers and applications where fast search is needed.    
 
 * Networking
   * Communication System 
